@@ -1,0 +1,20 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.14.2-x64-mingw32)
+    sassc (2.4.0-x64-mingw32)
+      ffi (~> 1.9)
+    zenml (1.5.1)
+    zenml-book (1.0.1)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  bundler
+  sassc
+  zenml
+  zenml-book
+
+BUNDLED WITH
+   2.2.7

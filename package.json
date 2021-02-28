@@ -1,0 +1,10 @@
+{
+  "name": "vivliostyle-test",
+  "scripts": {
+    "server": "http-server . -p 8000 -c-1 --cors --no-dotfiles"
+  },
+  "dependencies": {
+    "@vivliostyle/viewer": "^2.5.0",
+    "http-server": "^0.12.3"
+  }
+}

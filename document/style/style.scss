@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+
+$page-top-space: 22mm;
+$page-bottom-space: 22mm;
+$page-inner-space: 23mm;
+$page-outer-space: 17mm;
+
+@page {
+  size: A5;
+  @bottom-center {
+    content: "page " counter(page);
+  }
+}
+
+@page:left {
+  margin-top: $page-top-space;
+  margin-bottom: $page-bottom-space;
+  margin-left: $page-outer-space;
+  margin-right: $page-inner-space;
+}
+
+@page:right {
+  margin-top: $page-top-space;
+  margin-bottom: $page-bottom-space;
+  margin-left: $page-inner-space;
+  margin-right: $page-outer-space;
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Linux Libertine", "源ノ明朝", serif;
+  font-size: 9pt;
+}
+
+p {
+  text-align: justify;
+}

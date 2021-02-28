@@ -1,0 +1,12 @@
+source 'https://rubygems.org'
+
+gem 'bundler', require: [
+  'fileutils',
+  'open3',
+  'pp',
+  'rexml/document'
+]
+
+gem 'sassc'
+gem 'zenml'
+gem 'zenml-book'
